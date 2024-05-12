@@ -1,0 +1,125 @@
+/* Desktop */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* https://colorhunt.co/palette/c4dfdfd2e9e9e3f4f4f8f6f4 */
+#card {
+    height: 450px;
+    width: 350px;
+    position: relative;
+    top: 125px;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #ffffff, #e1dbdbb2);
+ 
+}
+
+
+.profile-pic {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    top: 25px;
+}
+
+h1 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    background: linear-gradient(to bottom right, #6a6565, #cea4c2b2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#designation {
+    margin: 5px 0 0 0;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(to bottom right, #363030, #000000b2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#company-name {
+    margin: 5px 0 20px;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    background: linear-gradient(to bottom right, #363030, #000000b2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    /* You can adjust the angle (135deg) and colors (#3498db, #8e44ad) to your preference */
+    /* width: 100%; */ 
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#container {
+    width: 75%;
+    margin-left: 23%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.footer-content {
+    text-align: center;
+    margin-top: auto;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+
+.connect-button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px; /* Adjust font size as needed */
+    color: #fff; /* Text color */
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* Button background color */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 330px;
+}
+
+.connect-button:hover {
+  background: #4f96e3; /* Change background color on hover */
+}
+/* Mobile  */
+/* Tablet */
