@@ -2,18 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* https://colorhunt.co/palette/c4dfdfd2e9e9e3f4f4f8f6f4 */
 #card {
-    max-height: 440px;
-    max-width: 350px;
+    height: 450px;
+    width: 350px;
     position: relative;
-    margin: 0;
+    top: 125px;
+    margin: auto;
     border-radius: 20px;
     background: linear-gradient(to bottom right, #ffffff, #e1dbdbb2);
-    padding-bottom: 10px;
+ 
 }
 
-#sorry {
-    display: none;
-}
 
 .profile-pic {
     height: 170px;
@@ -22,7 +20,6 @@
     position: relative;
     left: 25%;
     top: 25px;
-    object-fit: cover;
 }
 
 h1 {
@@ -78,18 +75,12 @@ body {
 }
 
 main {
-    
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    flex-grow: 1;
 }
 
 #container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width: 75%;
+    margin-left: 23%;
 }
 
 
@@ -133,51 +124,21 @@ a {
 /* Mobile  */
 
 @media (min-width:319px) and (max-width: 480px) {
-    #sorry {
-        display: none;
-    }
     #card {
-        min-width: 350px;
-        min-height: 440px;
+        width: 90%; /* Adjust card width for smaller screens */
     }
 
     .profile-pic {
-        
+        height: 120px; /* Adjust profile picture size for smaller screens */
+        width: 120px;
     }
 
-    #designation {
+    h1, #designation, #company-name {
         font-size: 1rem; /* Adjust font size for smaller screens */
     }
 
     .connect-button{
-        min-width: 300px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 5px;
+        width: 50%;
     }
-
-    .footer-content {
-        font-size: 0.5em;
-    }
-}
-
-
-@media (max-width:319px) {
-    #card {
-        display: none;
-        
-    }
-
-    .footer-content {
-        font-size: 0.5em;
-    }
-
-   #sorry {
-    display: block;
-     color: white;
-     font-size: 50px;
-     
-   }
-    
 }
 /* Tablet */
