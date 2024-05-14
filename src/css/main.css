@@ -108,6 +108,9 @@ a {
     color: white;
 }
 
+.footer-link {
+    color: white;
+}
 
 .connect-button {
     padding: 10px 20px; /* Adjust padding as needed */
@@ -174,9 +177,9 @@ a {
 
    #sorry {
     display: block;
-     color: white;
-     font-size: 50px;
-     
+    color: white;
+    font-size: 50px;
+    
    }
     
 }
