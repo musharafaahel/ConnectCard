@@ -127,7 +127,11 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
-    width: 330px;
+    min-width: 330px;
+    display: flex; 
+    gap: 4px;
+    justify-content: center;
+
 }
 
 .connect-button:hover {
@@ -144,23 +148,22 @@ a {
         min-height: 440px;
     }
 
-    .profile-pic {
-        
-    }
-
     #designation {
         font-size: 1rem; /* Adjust font size for smaller screens */
     }
 
     .connect-button{
-        min-width: 300px;
+        min-width: 330px;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 5px;
+        display: flex; 
+        gap: 4px;
+        justify-content: center;
     }
 
     .footer-content {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
 
@@ -172,7 +175,7 @@ a {
     }
 
     .footer-content {
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
 
    #sorry {
